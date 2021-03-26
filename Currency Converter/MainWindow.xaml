@@ -1,0 +1,87 @@
+﻿<Window x:Class="Currency_Converter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Currency_Converter"
+        mc:Ignorable="d"
+        Title="Currency Converter App" Height="500" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Image Source="/wave.png" VerticalAlignment="Bottom" Stretch="Uniform"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="Currency Converter" HorizontalAlignment="Center" FontWeight="Bold" FontStyle="Normal" FontSize="24" Foreground="#FF0099FF"/>
+                <TextBlock Text="Powered By Fixer.io" HorizontalAlignment="Center" FontStyle="Italic"/>
+            </StackPanel>
+            <Grid Grid.Row="1" Margin="30, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Rectangle Grid.ColumnSpan="2" Margin="2,2,2,2" RadiusX="10" RadiusY="10">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <LinearGradientBrush.RelativeTransform>
+                                <TransformGroup>
+                                    <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                                    <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                                    <RotateTransform Angle="427.62" CenterY="0.5" CenterX="0.5"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </LinearGradientBrush.RelativeTransform>
+                            <GradientStop Color="#FFCEEDFF" Offset="0"/>
+                            <GradientStop Color="#FF1998E0" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <Rectangle Fill="#FFC4E7FF" RadiusY="13.412" RadiusX="13.412"/>
+                <StackPanel Grid.Column="1" Margin="15" VerticalAlignment="Center">
+                    <TextBlock x:Name="tbFromRes" Foreground="#FF4E5170"/>
+                    <TextBlock x:Name="tbToRes" FontWeight="Bold" Foreground="#FF102D57" Height="70" FontSize="28" TextWrapping="Wrap" LineHeight="32" LineStackingStrategy="BlockLineHeight"/>
+                    <TextBlock x:Name="tbDate" Margin="0,10" Foreground="#FF4E5170" Text=""/>
+                </StackPanel>
+                <Grid Grid.Column="0" Margin="10,10,10,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="4*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="1.2*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center" Margin="3">
+                            <TextBlock Text="Amount" FontStyle="Italic"/>
+                            <TextBox x:Name="tbFrom" FontSize="16" Height="28" TextChanged="TbFrom_TextChanged"/>
+                            <TextBox x:Name="tbTo" FontSize="16" Height="28" Margin="0,5" TextChanged="TbTo_TextChanged"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="3">
+                            <TextBlock Text="Currency" FontStyle="Italic"/>
+                            <ComboBox x:Name="cbFrom" Height="28" ItemsSource="{Binding CurrencyCollection}" DisplayMemberPath="Key" SelectionChanged="cbFrom_SelectionChanged" DropDownOpened="cbFrom_DropDownOpened"/>
+                            <ComboBox x:Name="cbTo" Height="28" ItemsSource="{Binding CurrencyCollection}" DisplayMemberPath="Key" Margin="0,5" SelectionChanged="cbTo_SelectionChanged" DropDownOpened="cbTo_DropDownOpened"/>
+                        </StackPanel>
+                        <Button x:Name="btnSwapCurrency" Grid.Column="2" Height="40" Width="40" Margin="6,36,5,27" Click="BtnSwapCurrency_Click">
+                            <Image Source="/features2.png" HorizontalAlignment="Center" Stretch="UniformToFill"/>
+                        </Button>
+
+                    </Grid>
+                    <StackPanel Grid.Row="1" Margin="0,3" Orientation="Horizontal" HorizontalAlignment="Center">
+                        <!--<Button x:Name="btnConvert" Width="100" Content="Convert" Margin="0,0,5,0" Click="btnConvert_Click"/>-->
+                        <Button x:Name="btmClear" Width="100" Content="Clear" Click="btnClear_Click"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

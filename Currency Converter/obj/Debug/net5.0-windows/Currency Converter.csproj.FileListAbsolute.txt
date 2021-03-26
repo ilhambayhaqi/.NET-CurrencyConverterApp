@@ -1,0 +1,48 @@
+D:\Github\Currency Converter\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.exe
+D:\Github\Currency Converter\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.deps.json
+D:\Github\Currency Converter\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.runtimeconfig.json
+D:\Github\Currency Converter\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.runtimeconfig.dev.json
+D:\Github\Currency Converter\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.dll
+D:\Github\Currency Converter\Currency Converter\bin\Debug\net5.0-windows\ref\Currency Converter.dll
+D:\Github\Currency Converter\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.pdb
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.csprojAssemblyReference.cache
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\App.g.cs
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter_MarkupCompile.cache
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter_MarkupCompile.lref
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\MainWindow.baml
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.g.resources
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.AssemblyInfoInputs.cache
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.AssemblyInfo.cs
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.csproj.CoreCompileInputs.cache
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.dll
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\ref\Currency Converter.dll
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.pdb
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.genruntimeconfig.cache
+D:\Github\Currency Converter\Currency Converter\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+D:\Github\Currency Converter\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.csproj.CopyComplete
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.exe
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.deps.json
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.runtimeconfig.json
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.runtimeconfig.dev.json
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.dll
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\bin\Debug\net5.0-windows\ref\Currency Converter.dll
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\bin\Debug\net5.0-windows\Currency Converter.pdb
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.csprojAssemblyReference.cache
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\App.g.cs
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter_MarkupCompile.cache
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter_MarkupCompile.lref
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\MainWindow.baml
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.g.resources
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.AssemblyInfoInputs.cache
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.AssemblyInfo.cs
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.csproj.CoreCompileInputs.cache
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.csproj.CopyComplete
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.dll
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\ref\Currency Converter.dll
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.pdb
+D:\Github\.NET-CurrencyConverterApp\Currency Converter\obj\Debug\net5.0-windows\Currency Converter.genruntimeconfig.cache
